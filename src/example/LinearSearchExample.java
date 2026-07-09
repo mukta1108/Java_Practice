@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class LinearSearchExample {
 	public static int linearSearch(int arr[],int n) {
 		int i;
-		for(i=0;i<arr.length-1;i++) {
+		for(i=0;i<arr.length;i++) {
 			if(arr[i] == n) {
 				return i;
 			}
